@@ -1,0 +1,121 @@
+/* configuramos las fuentes a usar */
+@font-face{
+	font-family:Frogie;/* nombre de la fuente*/
+	src:url("fuentes/frogie.ttf"); /* nombre del archivo */
+}
+
+body{
+	
+	background-color:#0db7d1;/* color de fondo */
+	font-family:Frogie; /* fuentes seguras */
+	
+}
+	h1{
+	
+	color:#d1c24d;/*sirve para poner color al texto*/
+	text-align:center; /* alineacion centrada */
+	font-size:35px; /* tamaño de fuente */
+	background-color:#69060d;/* color de fondo */
+	font-family:Frogie;
+	margin-right:30%;
+	margin-left: 30%;
+	
+	}
+	h2{
+	
+	color:#black;/*sirve para poner color al texto*/
+	 /* alineacion centrada */
+	font-size:35px; /* tamaño de fuente */
+	font-family:Frogie;
+	margin-right:30%;
+	margin-left: 10%;
+	border-bottom-color:yellow;
+	border-bottom-style:groove;
+	border-width:5px;
+	}
+	p   {
+	 color:white;
+	 font-size:justtify;
+	 font-size:20px; /*tamaño de fuente*/
+	 margin-left:10%;/*margen izq. el 10% de la pantalla*/
+	margin-right:10%; /*margen derecgo misma medida */
+	text-shadow: 2px 2px 0px black;
+	}
+img   {
+	display:block;
+	margin:auto; 
+		 
+	 border-style:groove;
+	 border-color:#629af5;
+	 border-width:5px;
+	 box-shadow:5px 5px 10px black;
+	 margin-top:30px;
+	  }
+
+ul   {
+	color:yellow;
+	 font-size:justtify;
+	 font-size:20px; /*tamaño de fuente*/
+	 margin-left:15%;/*margen izq. el 10% de la pantalla*/
+	margin-right:15%; /*margen derecgo misma medida */
+	text-shadow: 1px 1px 0px black;
+	
+}
+	table    {
+	border-style:solid;
+	border-width:2px;
+	border-color:yellow;
+	text-align:center;
+	margin-left:10%;/*margen izq. el 10% de la pantalla*/
+	margin-right:15%; 
+	color:yellow;
+}	
+.distinto{
+	margin-right:15%;
+	margin-left: 10%;
+	color:orange;
+}
+
+	
+	/*link : tres instancias 
+1)cuando se presenta en pantalla: a:link
+2)cuando se le pasa el mouse por encima: a:hover
+3)cuando fue visitado: a:visited
+*/
+ a:link{
+color:#a035b0;
+background-color:;
+font-size:35px;
+margin-left:5%;
+text-decoration:underline;
+
+ }
+a:hover{
+color:#ffffff;
+background-color:;
+border-style:solid;
+}
+a:visited{
+	color:red;
+	background-color:;
+	text-decoration:overline;
+}
+
+ .galeria{
+	margin-right:5%;
+	margin-left: 5%;
+	display: inline;
+ }
+ .fotos:link{
+	text-decoration:none;
+	 background-color:transparent;
+ }
+ 
+ .fotos:hover{
+	 background-color:transparent;
+	 border-style:none;
+	 text-decoration:none;
+ }
+
+	
+	
